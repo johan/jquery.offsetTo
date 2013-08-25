@@ -1,7 +1,7 @@
 jquery.offsetTo
 ===============
 
-$(node).offsetTo(parentWindow) is an alternative to $(node).offset() when you're in a frameset
+$(node).offsetTo(parentWindow) is an alternative to $(node).offset() when you're in a subframe
 
 ## Credits
 
