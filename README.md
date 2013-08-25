@@ -1,4 +1,4 @@
-jquery.viewOffset
-=================
+jquery.offsetTo
+===============
 
-$(node).viewOffset() is a better alternative to $(node).position() when you want accurate window coordinates
+$(node).offsetTo(parentWindow) is an alternative to $(node).offset() when you're in a frameset
