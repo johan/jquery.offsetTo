@@ -1,7 +1,7 @@
-jQuery.fn.viewOffset = function viewOffset(baseWindow) {
+jQuery.fn.offsetTo = function offsetTo(baseWindow) {
   var node = this && this[0];
   if (!node || typeof node != 'object' || node.nodeType != 1)
-    throw new TypeError('viewOffset only gives coordinates to Element nodes');
+    throw new TypeError("offsetTo only gives coordinates to Element nodes");
   if (baseWindow) {
     if (typeof baseWindow != 'object' ||
         typeof baseWindow.constructor != 'function' ||
